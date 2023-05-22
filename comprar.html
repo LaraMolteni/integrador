@@ -32,13 +32,13 @@
                         <a class="nav-link" aria-current="page" href="index.html">La conferencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html" >Los oradores</a>
+                        <a class="nav-link" href="index.html">Los oradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html" >El lugar y la fecha</a>
+                        <a class="nav-link" href="index.html">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html" >Conviértete en orador</a>
+                        <a class="nav-link" href="index.html">Conviértete en orador</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#tickets" id="verde">Comprar tickets</a>
@@ -86,22 +86,21 @@
         <div class="fs-2 text-center mb-3">
             VALOR DEL TICKET $200
         </div>
-        <div id="form">
+        <form action="#" method="get">
             <div class="row">
                 <div class="col-md mb-4">
                     <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
                 </div>
                 <div class="col-md mb-4">
+
                     <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido"
                         required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md mb-4">
-                    <input type="email" class="form-control" id="email" placeholder="Correo">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Correo">
                 </div>
-
-
             </div>
 
             <div class="row">
@@ -129,21 +128,21 @@
                         placeholder="Total a pagar: $">
                 </div>
             </div>
-        </div>
-        <div class="row ">
+
+            <div class="row ">
 
 
-            <div class="col-md-6 mb-4">
-                <input type="reset" value="Borrar" onclick="borrar()"
-                    class=" btn border form-control btntickets fs-5 text-white">
+                <div class="col-md-6 mb-4">
+                    <input type="reset" value="Borrar" class=" btn border form-control btntickets fs-5 text-white">
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="button" value="Resumen" onclick="precioFinal()"
+                        class=" btn form-control fs-5  btntickets text-white">
+                </div>
+
+
             </div>
-            <div class="col-md-6 mb-4">
-                <input type="submit" value="Resumen" onclick="precioFinal()"
-                    class=" btn form-control fs-5  btntickets text-white">
-            </div>
-
-
-        </div>
+        </form>
 
     </div>
     <!-- Pie de página -->
