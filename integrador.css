@@ -16,13 +16,13 @@
 }
 
 .logo{
-    width: 13%;
+    width: 10%;
 }
 
 
 .menu a{
     color: rgb(179, 176, 176);
-    font-size: 1.05rem;
+   
     font-weight: 600;
 }
 
@@ -104,6 +104,7 @@
 
 
 
+
 /* Conviertete en orador */
 .enviar{
     background-color: rgb(150, 201, 62);
@@ -121,4 +122,21 @@
     text-decoration: none;
 }
 
+/* Tickets */
 
+.btntickets{
+    background-color: rgb(150, 201, 62);
+}
+
+.btntickets:hover{
+
+    background-color: rgb(114, 153, 47);
+}
+
+.btntickets:active{
+    background-color: rgb(150, 201, 62);
+}
+
+.gris{
+    color: gray;
+}
