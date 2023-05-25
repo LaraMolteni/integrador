@@ -128,14 +128,11 @@
     background-color: rgb(150, 201, 62);
 }
 
-.btntickets:hover{
+.btntickets:hover{ 
 
     background-color: rgb(114, 153, 47);
-}
+} 
 
-.btntickets:active{
-    background-color: rgb(150, 201, 62);
-}
 
 .gris{
     color: gray;
