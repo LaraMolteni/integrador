@@ -12,16 +12,6 @@ function precioFinal(){
     document.getElementById("total").value = total;
 }
 
-function borrar(){
-    
-    document.getElementById("nombre").value="";
-    document.getElementById("apellido").value="";
-    document.getElementById("email").value="";
-    document.getElementById("cantidadEntradas").value="";
-    document.getElementById("descuento").value="";
-    document.getElementById("total").value="";
-
-}
 
 
 
